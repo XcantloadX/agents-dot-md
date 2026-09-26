@@ -9,6 +9,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 - `languages/Python.md` — Python 代码规范（当前唯一有效规范）。
 - `languages/PowerShell.md`、`languages/Python-Qt.md`、`languages/Web.md` — 占位空文件，**严禁 MUST NOT**视为有效规范。
 - `basis/Basis.md` — 占位空文件，**严禁 MUST NOT**视为有效规范。
+- `basis/Git.md` — Git 提交与操作规范，git 相关任务**必须 MUST**完整读取并遵守。
 - `meta/Writing-Language-Specs.md` — 如何编写语言规范文件（规范的规范）。
 - `README.md`、`LICENSE` — 项目说明与协议。
 
@@ -23,6 +24,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 1. 按需加载规范，不要全量预读。写 Python 代码前**必须 MUST**先完整读取 `languages/Python.md`；不写 Python 则**不建议 SHOULD NOT**读取它。
 2. 空文件代表规范缺失：若任务命中的规范文件为空，**必须 MUST**直说规范缺失并只遵循用户提示词 + 语言官方默认规范，**严禁 MUST NOT**把 `Python.md` 的规则套用到其他语言。
 3. 下游项目引用本仓库时，复制本文件做法：**应该 SHOULD**保留“路由 + 按需读取”模式，而不是把各语言全文粘进单个 AGENTS.md，避免漂移。
+4. 涉及提交信息、分支标签或任何 git 操作时，**必须 MUST**先完整读取 `basis/Git.md` 并遵守；无 git 操作的纯代码任务**不建议 SHOULD NOT**预读它。
 
 ## 维护本仓库规范文件的约定
 
