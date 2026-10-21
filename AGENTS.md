@@ -12,6 +12,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 - `basis/Git.md` — Git 提交与操作规范，git 相关任务**必须 MUST**完整读取并遵守。
 - `meta/Writing-Language-Specs.md` — 如何编写语言规范文件（规范的规范）。
 - `meta/Create-Project.md` — 创建新项目流程指导（给 Agent 看）。
+- `meta/Update-Prompts.md` — 更新下游项目内 prompt 文档与 AGENTS.md 的流程指导（给 Agent 看）。
 - `README.md`、`LICENSE` — 项目说明与协议。
 
 ## 覆盖优先级
